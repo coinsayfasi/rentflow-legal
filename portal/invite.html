@@ -112,9 +112,9 @@
     const isIOS     = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     const isAndroid = /Android/.test(navigator.userAgent);
 
-    // Hide the irrelevant store button for known platforms
-    if (isIOS)     document.getElementById('android-btn').style.display = 'none';
-    if (isAndroid) document.getElementById('ios-btn').style.display     = 'none';
+    // On known platforms show both buttons but highlight the relevant one
+    if (isAndroid) document.getElementById('ios-btn').style.opacity = '0.5';
+    if (isIOS)     document.getElementById('android-btn').style.opacity = '0.5';
 
     const openBtn = document.getElementById('open-app');
     const statusMsg = document.getElementById('status-msg');

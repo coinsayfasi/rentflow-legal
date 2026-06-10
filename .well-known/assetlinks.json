@@ -5,6 +5,7 @@
       "namespace": "android_app",
       "package_name": "com.tabserve.rentflow",
       "sha256_cert_fingerprints": [
+        "EC:D4:0F:EE:C2:48:5C:1C:60:FC:0E:93:6D:FA:9F:A0:8F:99:88:F8:CB:CB:27:CD:72:73:27:B1:EC:68:49:6E",
         "4B:C9:85:88:4B:76:D7:54:8F:F4:A6:2D:8E:0F:E5:AA:63:6B:0A:B8:30:4F:22:9C:19:9C:BF:4B:3F:D5:31:85"
       ]
     }

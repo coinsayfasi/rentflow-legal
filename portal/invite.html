@@ -26,7 +26,7 @@
     }
     .logo {
       width: 64px; height: 64px;
-      background: #635BFF;
+      background: #059669;
       border-radius: 16px;
       margin: 0 auto 20px;
       display: flex;
@@ -38,7 +38,7 @@
     p  { font-size: 15px; color: #6B7280; line-height: 1.5; margin-bottom: 28px; }
     .btn {
       display: block;
-      background: #635BFF;
+      background: #059669;
       color: white;
       text-decoration: none;
       border-radius: 99px;
@@ -51,8 +51,8 @@
     .btn:hover { opacity: 0.9; }
     .btn.secondary {
       background: transparent;
-      border: 1.5px solid #635BFF;
-      color: #635BFF;
+      border: 1.5px solid #059669;
+      color: #059669;
     }
     .store-row {
       display: flex;
@@ -74,7 +74,7 @@
     .store-btn span { display: block; font-size: 10px; opacity: 0.7; margin-bottom: 1px; }
     .divider { border: none; border-top: 1px solid #E5E7EB; margin: 24px 0; }
     .status { font-size: 13px; color: #9CA3AF; margin-top: 16px; }
-    #status-msg { color: #635BFF; font-weight: 500; }
+    #status-msg { color: #059669; font-weight: 500; }
   </style>
 </head>
 <body>
@@ -93,10 +93,10 @@
 
     <p style="margin-bottom:16px">Don't have the app yet? Download it free:</p>
     <div class="store-row">
-      <a href="https://apps.apple.com/app/rentflow/id0000000000" class="store-btn" id="ios-btn">
+      <a href="https://apps.apple.com/app/rentflow/id6767179451" class="store-btn" id="ios-btn">
         <span>Download on the</span>App Store
       </a>
-      <a href="https://play.google.com/store/apps/details?id=com.tabserve.rent_flow" class="store-btn" id="android-btn">
+      <a href="https://play.google.com/store/apps/details?id=com.tabserve.rentflow" class="store-btn" id="android-btn">
         <span>Get it on</span>Google Play
       </a>
     </div>
@@ -137,9 +137,9 @@
         setTimeout(() => {
           statusMsg.textContent = 'App not detected — redirecting to store…';
           if (isIOS) {
-            window.location.href = 'https://apps.apple.com/app/rentflow/id0000000000';
+            window.location.href = 'https://apps.apple.com/app/rentflow/id6767179451';
           } else {
-            window.location.href = 'https://play.google.com/store/apps/details?id=com.tabserve.rent_flow';
+            window.location.href = 'https://play.google.com/store/apps/details?id=com.tabserve.rentflow';
           }
         }, 2500);
       });

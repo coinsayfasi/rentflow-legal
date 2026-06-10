@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tabserve.rentflow",
+      "sha256_cert_fingerprints": [
+        "4B:C9:85:88:4B:76:D7:54:8F:F4:A6:2D:8E:0F:E5:AA:63:6B:0A:B8:30:4F:22:9C:19:9C:BF:4B:3F:D5:31:85",
+        "REPLACE_WITH_PLAY_APP_SIGNING_SHA256"
+      ]
+    }
+  }
+]

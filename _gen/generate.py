@@ -251,7 +251,7 @@ __BODY__
     </div>
     <div class="foot-col">
       <p class="fh">Company</p>
-      <a href="/about.html">About</a>
+      <a href="/#about">About</a>
       <a href="/blog/">Blog</a>
       <a href="mailto:teknopattv@gmail.com">Contact</a>
     </div>
@@ -601,7 +601,7 @@ addEventListener('load',function(){{setTimeout(load,1500);}});}})();
     </div>
     <div class="foot-col">
       <p class="fh">Company</p>
-      <a href="/about.html">About</a>
+      <a href="/#about">About</a>
       <a href="/blog/">Blog</a>
       <a href="https://gezi.tabserve.com.tr/">Türkiye Gezi Rehberi (TR)</a>
       <a href="mailto:teknopattv@gmail.com">Contact</a>

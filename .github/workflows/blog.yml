@@ -38,3 +38,10 @@ jobs:
           git commit -m "content: yeni RentFlow blog yazısı (AI, tam-SEO) [skip ci]"
           for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; sleep 5; done
           exit 1
+      - name: Wait for GitHub Pages deploy
+        run: sleep 90
+      - name: Ping Google Indexing + IndexNow (Bing/Yandex)
+        continue-on-error: true
+        env:
+          GOOGLE_INDEXING_SA: ${{ secrets.GOOGLE_INDEXING_SA }}
+        run: python -u _gen/index_ping.py

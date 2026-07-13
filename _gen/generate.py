@@ -226,7 +226,7 @@ PAGE = """<!DOCTYPE html>
 <div class="aurora"></div>
 <nav><div class="nwrap">
   <a class="logo" href="/"><img src="/assets/logo.svg" alt="RentFlow" width="28" height="28">RentFlow</a>
-  <div class="nav-links"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/#app">Get the App</a><a href="mailto:teknopattv@gmail.com">Contact</a></div>
+  <div class="nav-links"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/#apps">App</a></div>
 </div></nav>
 <main class="wrap page">
 __RAIL__
@@ -586,7 +586,7 @@ addEventListener('load',function(){{setTimeout(load,1500);}});}})();
 <body>
 <div class="aurora"></div>
 <nav><div class="nwrap"><a class="logo" href="/"><img src="/assets/logo.svg" alt="RentFlow" width="28" height="28">RentFlow</a>
-<div class="nav-links"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/#app">Get the App</a><a href="mailto:teknopattv@gmail.com">Contact</a></div></div></nav>"""
+<div class="nav-links"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/#apps">App</a></div></div></nav>"""
     foot = """<footer class="site-footer">
   <div class="wrap foot-grid">
     <div class="foot-brand">

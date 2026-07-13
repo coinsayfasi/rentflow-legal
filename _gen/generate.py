@@ -275,6 +275,16 @@ __BODY__
 </div>
 <script>(function(){try{if(!localStorage.getItem('cookie_consent'))document.getElementById('cookie-banner').style.display='block';}catch(e){}})();
 function cookieOK(v){try{localStorage.setItem('cookie_consent',v?'accepted':'rejected');}catch(e){}if(window.__grantConsent)__grantConsent(!!v);document.getElementById('cookie-banner').style.display='none';}</script>
+<div id="dlbar" style="display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:#0d1426;color:#fff;padding:10px 16px;box-shadow:0 -4px 20px rgba(0,0,0,.25)">
+<div style="max-width:1080px;margin:0 auto;display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap">
+<img src="/assets/rentflow.webp" width="26" height="26" style="border-radius:7px" alt="RentFlow">
+<b style="font-size:13.5px">Get the free RentFlow app</b>
+<a href="https://apps.apple.com/app/id6767179451" style="background:#fff;color:#0d1426;padding:7px 13px;border-radius:8px;font-weight:700;font-size:12.5px;text-decoration:none">&#63743; App Store</a>
+<a href="https://play.google.com/store/apps/details?id=com.tabserve.rentflow" style="background:#059669;color:#fff;padding:7px 13px;border-radius:8px;font-weight:700;font-size:12.5px;text-decoration:none">&#9654; Google Play</a>
+<button onclick="dlX()" aria-label="Close" style="background:none;border:0;color:#8b95ad;font-size:20px;cursor:pointer;line-height:1">&times;</button>
+</div></div>
+<script>(function(){{try{{if(localStorage.getItem("cookie_consent")&&!localStorage.getItem("dlbar_x")){{var b=document.getElementById("dlbar");if(b)b.style.display="block";}}}}catch(e){{}}}})();
+function dlX(){{try{{localStorage.setItem("dlbar_x","1");}}catch(e){{}}var b=document.getElementById("dlbar");if(b)b.style.display="none";}}</script>
 </body>
 </html>
 """
@@ -504,7 +514,7 @@ def write_post(d, app, posts=()):
     body = body + related_block(posts, slug, tag=APPS[app]["tag"]) + ALL_APPS_STRIP + extras
     _ttl=d["title"]; _sfx=" | Tabserve"; _ttag=(_ttl+_sfx) if len(_ttl+_sfx)<=70 else (_ttl if len(_ttl)<=70 else _ttl[:70].rsplit(" ",1)[0]); page = (PAGE.replace("__TITLETAG__", html.escape(_ttag)).replace("__TITLE__", html.escape(d["title"])).replace("__DESC__", html.escape(d["meta_description"]))
         .replace("__KW__", html.escape(d["keywords"])).replace("__URL__", url).replace("__OGIMG__", html.escape(ogimg))
-        .replace("__APPMETA__", ("\n<meta name=\"apple-itunes-app\" content=\"app-id=" + APPS[app]["ios"] + "\">") if APPS[app].get("ios") else "").replace("__SCHEMA__", schema).replace("__CRUMB__", html.escape(d["title"] if len(d["title"]) <= 42 else d["title"][:42].rsplit(" ", 1)[0] + "…"))
+        .replace("__APPMETA__", "").replace("__SCHEMA__", schema).replace("__CRUMB__", html.escape(d["title"] if len(d["title"]) <= 42 else d["title"][:42].rsplit(" ", 1)[0] + "…"))
         .replace("__TAG__", APPS[app]["tag"]).replace("__READ__", str(read)).replace("__RAIL__", rail)
         .replace("__NICE__", "Published: " + today.strftime("%b %d, %Y") + " · Updated: " + today.strftime("%b %d, %Y")).replace("__BODY__", body))
     (BLOG / slug).mkdir(parents=True, exist_ok=True)

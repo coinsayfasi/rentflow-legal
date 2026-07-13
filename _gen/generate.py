@@ -11,7 +11,7 @@ import os, re, sys, json, html, time, datetime, urllib.request, urllib.error, ur
 from pathlib import Path
 
 SOCIAL = [("YouTube","https://youtube.com/@tabserve"),("Instagram","https://instagram.com/tabservee"),
-          ("TikTok","https://tiktok.com/@tabserve"),("Bluesky","https://bsky.app/profile/tabserve.bsky.social"),("Pinterest","https://pinterest.com/nedir_nasil")]
+          ("TikTok","https://tiktok.com/@tabserve"),("Bluesky"),("Pinterest","https://pinterest.com/nedir_nasil")]
 
 def _svg(d): return f'<svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor" aria-hidden="true"><path d="{d}"/></svg>'
 ICON = {
@@ -714,7 +714,7 @@ addEventListener('load',function(){{setTimeout(load,1500);}});}})();
         if A in lc and B in lc:
             t3 = posts[:9]
             teaser = A + '\n<section class="wrap" id="blogteaser" style="padding:26px 22px 8px"><h3 style="font-family:\'Sora\',sans-serif;font-size:26px;text-align:center;margin-bottom:20px">Fresh from the blog</h3><div class="grid" style="padding:0 0 8px">' + "".join(
-                f'<article class="card in" style="opacity:1;transform:none"><h2 style="font-size:18px">{html.escape(pp["title"])}</h2>'
+                f'<article class="card in" style="opacity:1;transform:none"><h3 style="font-size:18px">{html.escape(pp["title"])}</h3>'
                 f'<p>{html.escape(pp["desc"][:130])}…</p>'
                 f'<a class="more" href="/blog/{pp["slug"]}/">Read the guide →</a></article>' for pp in t3
             ) + '</div><p style="text-align:center;margin:6px 0 26px"><a class="more" href="/blog/" style="font-size:15px">All guides →</a></p></section>\n' + B

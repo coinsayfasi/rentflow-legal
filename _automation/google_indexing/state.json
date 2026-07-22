@@ -13,7 +13,8 @@
   "https://rentflow.tabserve.com.tr/blog/rental-property-record-keeping-for-taxes/": "2026-07-20",
   "https://rentflow.tabserve.com.tr/blog/return-on-investment-for-rental-property/": "2026-07-20",
   "https://rentflow.tabserve.com.tr/blog/how-to-advertise-a-rental-property/": "2026-07-21",
-  "https://rentflow.tabserve.com.tr/blog/page/2/": "2026-07-21"
+  "https://rentflow.tabserve.com.tr/blog/page/2/": "2026-07-21",
+  "https://rentflow.tabserve.com.tr/blog/tenant-reference-check-guide/": "2026-07-22"
  },
  "history": [
   {
@@ -27,6 +28,13 @@
    "date": "2026-07-21",
    "mode": "yeni",
    "ok": 2,
+   "quota_hit": false,
+   "errors": 0
+  },
+  {
+   "date": "2026-07-22",
+   "mode": "yeni",
+   "ok": 1,
    "quota_hit": false,
    "errors": 0
   }

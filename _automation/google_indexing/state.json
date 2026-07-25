@@ -16,7 +16,8 @@
   "https://rentflow.tabserve.com.tr/blog/page/2/": "2026-07-21",
   "https://rentflow.tabserve.com.tr/blog/tenant-reference-check-guide/": "2026-07-22",
   "https://rentflow.tabserve.com.tr/blog/how-to-write-a-rent-increase-letter/": "2026-07-23",
-  "https://rentflow.tabserve.com.tr/blog/rental-property-depreciation-explained/": "2026-07-24"
+  "https://rentflow.tabserve.com.tr/blog/rental-property-depreciation-explained/": "2026-07-24",
+  "https://rentflow.tabserve.com.tr/blog/joint-tenancy-vs-sole-tenancy/": "2026-07-25"
  },
  "history": [
   {
@@ -49,6 +50,13 @@
   },
   {
    "date": "2026-07-24",
+   "mode": "yeni",
+   "ok": 1,
+   "quota_hit": false,
+   "errors": 0
+  },
+  {
+   "date": "2026-07-25",
    "mode": "yeni",
    "ok": 1,
    "quota_hit": false,

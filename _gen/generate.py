@@ -47,10 +47,11 @@ def post_extras(url, title):
     share = '<div class="share"><span>Share this post:</span>' + ''.join(
         f'<a class="ico" href="{h}" target="_blank" rel="noopener" aria-label="{lbl[n]}">{ICON[n]}</a>' for n,h in S) + '</div>'
     follow = ''.join(f'<a class="ico" href="{lu}" target="_blank" rel="noopener" aria-label="{ln}">{ICON.get(ln,ln)}</a>' for ln,lu in SOCIAL)
-    author = ('<div class="author-box"><img class="ab-logo" src="/assets/logo.svg" alt="Tabserve" width="56" height="56">'
-              '<div class="ab-body"><b>Written by Tabserve</b><p>We\'re an independent app studio building simple, useful '
-              'mobile apps for travel, trips and rentals — OneBag, Routevia and RentFlow. We share practical guides to help you '
-              f'pack smarter, travel better and manage rentals with less hassle.</p><div class="follow"><span>Follow us:</span>{follow}</div></div></div>')
+    author = ('<div class="author-box"><img class="ab-logo" src="/assets/logo.svg" alt="Aycan Merve Güneş — Tabserve" width="56" height="56">'
+              '<div class="ab-body"><b>Written by <a href="https://www.tabserve.com.tr/author.html">Aycan Merve Güneş</a></b>'
+              '<p style="color:var(--muted);font-size:13px;margin:2px 0 8px">Independent Full Stack Developer · Founder of Tabserve</p>'
+              '<p>Aycan builds and maintains Tabserve\'s apps — OneBag, Routevia and RentFlow — and writes practical, '
+              f'tested guides to help landlords manage rentals with less hassle.</p><div class="follow"><span>Follow us:</span>{follow}</div></div></div>')
     rail = '<div class="share-rail" aria-label="Share this post">' + ''.join(
         f'<a href="{h}" target="_blank" rel="noopener" aria-label="{lbl[n]}">{ICON[n]}</a>' for n,h in S) + '</div>'
     return share + author, rail
@@ -280,7 +281,7 @@ __BODY__
     </div>
   </div>
   <div class="foot-bottom"><div class="wrap">
-    <span>© 2026 Tabserve · Built by Yunus Güneş</span>
+    <span>© 2026 Tabserve · Built by Aycan Merve Güneş</span>
     <span>Made with ♥ in Türkiye · <a rel="me" href="https://mastodon.social/@tabserve">Mastodon</a></span>
   </div></div>
 </footer>
@@ -516,7 +517,7 @@ def write_post(d, app, posts=()):
             break
     today = datetime.date.today()
     schemas = [{"@context":"https://schema.org","@type":"Article","headline":d["title"],
-        "description":d["meta_description"],"image":ogimg,"author":{"@type":"Organization","name":"Tabserve"},
+        "description":d["meta_description"],"image":ogimg,"author":{"@type":"Person","name":"Aycan Merve Güneş","jobTitle":"Independent Full Stack Developer","url":"https://www.tabserve.com.tr/author.html"},
         "publisher":{"@type":"Organization","name":"Tabserve","logo":{"@type":"ImageObject","url":f"{SITE}/assets/tabserve-og.png"}},
         "datePublished":today.isoformat(),"dateModified":today.isoformat(),"mainEntityOfPage":url}]
     faq = faq_schema(body)
@@ -585,12 +586,7 @@ def rebuild_index(posts):
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="blogarama-site-verification" content="blogarama-a9ce490b-b35d-4df8-be42-dde71c7e9a94">
-<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
-<script>
-(function(){{var d=0;function load(){{if(d)return;d=1;var s=document.createElement('script');s.async=1;s.crossOrigin='anonymous';s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7579691213276550';document.head.appendChild(s);}}
-['scroll','touchstart','mousedown','keydown'].forEach(function(e){{addEventListener(e,load,{{once:true,passive:true}});}});
-addEventListener('load',function(){{setTimeout(load,4000);}});}})();
-</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7579691213276550" crossorigin="anonymous"></script>
 <title>__T__ | Tabserve</title>
 <meta name="description" content="__DESC__">
 <link rel="canonical" href="__CANON__">__PREVNEXT__
@@ -641,7 +637,7 @@ addEventListener('load',function(){{setTimeout(load,4000);}});}})();
     </div>
   </div>
   <div class="foot-bottom"><div class="wrap">
-    <span>© 2026 Tabserve · Built by Yunus Güneş</span>
+    <span>© 2026 Tabserve · Built by Aycan Merve Güneş</span>
     <span>Made with ♥ in Türkiye · <a rel="me" href="https://mastodon.social/@tabserve">Mastodon</a></span>
   </div></div>
 </footer>

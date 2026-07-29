@@ -47,11 +47,11 @@ def post_extras(url, title):
     share = '<div class="share"><span>Share this post:</span>' + ''.join(
         f'<a class="ico" href="{h}" target="_blank" rel="noopener" aria-label="{lbl[n]}">{ICON[n]}</a>' for n,h in S) + '</div>'
     follow = ''.join(f'<a class="ico" href="{lu}" target="_blank" rel="noopener" aria-label="{ln}">{ICON.get(ln,ln)}</a>' for ln,lu in SOCIAL)
-    author = ('<div class="author-box"><img class="ab-logo" src="/assets/logo.svg" alt="Aycan Merve Güneş — Tabserve" width="56" height="56">'
-              '<div class="ab-body"><b>Written by <a href="https://www.tabserve.com.tr/author.html">Aycan Merve Güneş</a></b>'
-              '<p style="color:var(--muted);font-size:13px;margin:2px 0 8px">Independent Full Stack Developer · Founder of Tabserve</p>'
-              '<p>Aycan builds and maintains Tabserve\'s apps — OneBag, Routevia and RentFlow — and writes practical, '
-              f'tested guides to help landlords manage rentals with less hassle.</p><div class="follow"><span>Follow us:</span>{follow}</div></div></div>')
+    author = ('<div class="author-box"><img class="ab-logo" src="/assets/logo.svg" alt="Selçuk Güneş — Tabserve" width="56" height="56">'
+              '<div class="ab-body"><b>Written by <a href="https://www.tabserve.com.tr/author-selcuk.html">Selçuk Güneş</a></b>'
+              '<p style="color:var(--muted);font-size:13px;margin:2px 0 8px">Landlord &amp; Rental Guides Writer, Tabserve</p>'
+              '<p>Selçuk writes RentFlow\'s landlord and rental-property guides — leases, tenant screening, rent '
+              f'increases and the numbers behind rental yield.</p><div class="follow"><span>Follow us:</span>{follow}</div></div></div>')
     rail = '<div class="share-rail" aria-label="Share this post">' + ''.join(
         f'<a href="{h}" target="_blank" rel="noopener" aria-label="{lbl[n]}">{ICON[n]}</a>' for n,h in S) + '</div>'
     return share + author, rail
@@ -519,7 +519,7 @@ def write_post(d, app, posts=()):
             break
     today = datetime.date.today()
     schemas = [{"@context":"https://schema.org","@type":"Article","headline":d["title"],
-        "description":d["meta_description"],"image":ogimg,"author":{"@type":"Person","name":"Aycan Merve Güneş","jobTitle":"Independent Full Stack Developer","url":"https://www.tabserve.com.tr/author.html"},
+        "description":d["meta_description"],"image":ogimg,"author":{"@type":"Person","name":"Selçuk Güneş","jobTitle":"Landlord & Rental Guides Writer","url":"https://www.tabserve.com.tr/author-selcuk.html"},
         "publisher":{"@type":"Organization","name":"Tabserve","logo":{"@type":"ImageObject","url":f"{SITE}/assets/tabserve-og.png"}},
         "datePublished":today.isoformat(),"dateModified":today.isoformat(),"mainEntityOfPage":url}]
     faq = faq_schema(body)

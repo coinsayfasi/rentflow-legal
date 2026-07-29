@@ -1,30 +1,162 @@
 [
- {"app":"rentflow","keyword":"how to increase rent legally","angle":"Notice periods, legal caps and the correct step-by-step process to raise rent by country"},
- {"app":"rentflow","keyword":"how to evict a tenant legally","angle":"The lawful eviction process, notice types, court steps and mistakes to avoid"},
- {"app":"rentflow","keyword":"return on investment for rental property","angle":"How to calculate ROI, cash-on-cash return and total return with worked examples"},
- {"app":"rentflow","keyword":"how to manage multiple rental properties","angle":"Systems, automation and workflows to scale a portfolio without spreadsheets"},
- {"app":"rentflow","keyword":"how to collect rent online","angle":"Digital rent collection methods, tracking receipts and reducing late payments"},
- {"app":"rentflow","keyword":"gross rent multiplier explained","angle":"What GRM is, how to calculate it and how to compare rental properties fast"},
- {"app":"rentflow","keyword":"landlord responsibilities checklist","angle":"Legal and practical duties every landlord must meet, as an actionable checklist"},
- {"app":"rentflow","keyword":"rental property inspection checklist","angle":"Move-in, periodic and move-out inspection checklists with what to document"},
- {"app":"rentflow","keyword":"rental property record keeping for taxes","angle":"What income and expenses to track, receipts to keep and how long to store them"},
- {"app":"rentflow","keyword":"how to reduce tenant turnover","angle":"Retention tactics, renewals and communication to keep good tenants longer"},
- {"app":"rentflow","keyword":"how to deal with rent arrears","angle":"A calm, staged process from first missed payment to recovery and prevention"},
- {"app":"rentflow","keyword":"rental property maintenance checklist","angle":"Seasonal and preventive maintenance tasks that protect your rental's value"},
- {"app":"rentflow","keyword":"how to advertise a rental property","angle":"Where to list, writing the ad, photos and pricing to fill vacancies fast"},
- {"app":"rentflow","keyword":"tenant reference check guide","angle":"How to verify references, employment and previous landlords the right way"},
- {"app":"rentflow","keyword":"how to write a rent increase letter","angle":"What to include, tone, notice period and a ready-to-adapt template outline"},
- {"app":"rentflow","keyword":"rental property depreciation explained","angle":"What depreciation is, how it lowers tax and how to track it as a landlord"},
- {"app":"rentflow","keyword":"joint tenancy vs sole tenancy","angle":"Differences, liability, and which lease structure suits your rental"},
- {"app":"rentflow","keyword":"how to handle a problem tenant","angle":"De-escalation, documentation and legal options for difficult situations"},
- {"app":"rentflow","keyword":"how to renew a tenancy agreement","angle":"When and how to renew, renegotiate terms and avoid accidental periodic tenancies"},
- {"app":"rentflow","keyword":"rental property budget planning","angle":"Building a realistic budget: reserves, maintenance, voids and capital expenses"},
- {"app":"rentflow","keyword":"security deposit dispute resolution","angle":"How to avoid and resolve deposit disputes, evidence and deposit schemes"},
- {"app":"rentflow","keyword":"how much rent can I afford to charge","angle":"Balancing market rate, costs and vacancy risk to set a sustainable rent"},
- {"app":"rentflow","keyword":"furnished vs unfurnished rental","angle":"Pros, cons, rent premiums and tax implications of furnishing a rental"},
- {"app":"rentflow","keyword":"how to handle rental property repairs","angle":"Urgent vs routine repairs, responsibilities, contractors and record-keeping"},
- {"app":"rentflow","keyword":"rental property cash reserve fund","angle":"How much to set aside for voids, repairs and emergencies, with a formula"},
- {"app":"rentflow","keyword":"landlord guarantor requirements","angle":"When to require a guarantor, what to check and how the agreement works"},
- {"app":"rentflow","keyword":"how to onboard a new tenant","angle":"Move-in day checklist: keys, inventory, deposit, documents and welcome pack"},
- {"app":"rentflow","keyword":"rental yield vs capital growth","angle":"Income versus appreciation — how to balance both in a rental strategy"}
+ {
+  "app": "rentflow",
+  "keyword": "how to increase rent legally",
+  "angle": "Notice periods, legal caps and the correct step-by-step process to raise rent by country"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to evict a tenant legally",
+  "angle": "The lawful eviction process, notice types, court steps and mistakes to avoid"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "return on investment for rental property",
+  "angle": "How to calculate ROI, cash-on-cash return and total return with worked examples"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to manage multiple rental properties",
+  "angle": "Systems, automation and workflows to scale a portfolio without spreadsheets"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to collect rent online",
+  "angle": "Digital rent collection methods, tracking receipts and reducing late payments"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "gross rent multiplier explained",
+  "angle": "What GRM is, how to calculate it and how to compare rental properties fast"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "landlord responsibilities checklist",
+  "angle": "Legal and practical duties every landlord must meet, as an actionable checklist"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "rental property inspection checklist",
+  "angle": "Move-in, periodic and move-out inspection checklists with what to document"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "rental property record keeping for taxes",
+  "angle": "What income and expenses to track, receipts to keep and how long to store them"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to reduce tenant turnover",
+  "angle": "Retention tactics, renewals and communication to keep good tenants longer"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to deal with rent arrears",
+  "angle": "A calm, staged process from first missed payment to recovery and prevention"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "rental property maintenance checklist",
+  "angle": "Seasonal and preventive maintenance tasks that protect your rental's value"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to advertise a rental property",
+  "angle": "Where to list, writing the ad, photos and pricing to fill vacancies fast"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "tenant reference check guide",
+  "angle": "How to verify references, employment and previous landlords the right way"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to write a rent increase letter",
+  "angle": "What to include, tone, notice period and a ready-to-adapt template outline"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "rental property depreciation explained",
+  "angle": "What depreciation is, how it lowers tax and how to track it as a landlord"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "joint tenancy vs sole tenancy",
+  "angle": "Differences, liability, and which lease structure suits your rental"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to handle a problem tenant",
+  "angle": "De-escalation, documentation and legal options for difficult situations"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to renew a tenancy agreement",
+  "angle": "When and how to renew, renegotiate terms and avoid accidental periodic tenancies"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "rental property budget planning",
+  "angle": "Building a realistic budget: reserves, maintenance, voids and capital expenses"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "security deposit dispute resolution",
+  "angle": "How to avoid and resolve deposit disputes, evidence and deposit schemes"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how much rent can I afford to charge",
+  "angle": "Balancing market rate, costs and vacancy risk to set a sustainable rent"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "furnished vs unfurnished rental",
+  "angle": "Pros, cons, rent premiums and tax implications of furnishing a rental"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to handle rental property repairs",
+  "angle": "Urgent vs routine repairs, responsibilities, contractors and record-keeping"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "rental property cash reserve fund",
+  "angle": "How much to set aside for voids, repairs and emergencies, with a formula"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "landlord guarantor requirements",
+  "angle": "When to require a guarantor, what to check and how the agreement works"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to onboard a new tenant",
+  "angle": "Move-in day checklist: keys, inventory, deposit, documents and welcome pack"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "rental yield vs capital growth",
+  "angle": "Income versus appreciation — how to balance both in a rental strategy"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to write a lease agreement",
+  "angle": "Key clauses every lease needs, plus common mistakes that cause disputes"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "first time landlord tips",
+  "angle": "What new landlords wish they knew before their first tenant moved in"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "landlord tenant checklist",
+  "angle": "A practical move-in/move-out checklist covering legal and condition items"
+ },
+ {
+  "app": "rentflow",
+  "keyword": "how to calculate rental yield",
+  "angle": "Gross vs net yield formulas with a worked example, and what counts as good"
+ }
 ]

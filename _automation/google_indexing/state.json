@@ -19,7 +19,13 @@
   "https://rentflow.tabserve.com.tr/blog/rental-property-depreciation-explained/": "2026-07-24",
   "https://rentflow.tabserve.com.tr/blog/joint-tenancy-vs-sole-tenancy/": "2026-07-25",
   "https://rentflow.tabserve.com.tr/blog/how-to-handle-a-problem-tenant/": "2026-07-26",
-  "https://rentflow.tabserve.com.tr/blog/how-to-renew-a-tenancy-agreement/": "2026-07-27"
+  "https://rentflow.tabserve.com.tr/blog/how-to-renew-a-tenancy-agreement/": "2026-07-27",
+  "https://rentflow.tabserve.com.tr/blog/furnished-vs-unfurnished-rental/": "2026-07-30",
+  "https://rentflow.tabserve.com.tr/blog/how-much-rent-can-i-afford-to-charge/": "2026-07-30",
+  "https://rentflow.tabserve.com.tr/blog/how-to-handle-rental-property-repairs/": "2026-07-30",
+  "https://rentflow.tabserve.com.tr/blog/rental-property-budget-planning-guide/": "2026-07-30",
+  "https://rentflow.tabserve.com.tr/blog/security-deposit-dispute-resolution-guide/": "2026-07-30",
+  "https://rentflow.tabserve.com.tr/blog/page/3/": "2026-07-30"
  },
  "history": [
   {
@@ -89,6 +95,13 @@
    "date": "2026-07-29",
    "mode": "yeni",
    "ok": 0,
+   "quota_hit": false,
+   "errors": 0
+  },
+  {
+   "date": "2026-07-30",
+   "mode": "yeni",
+   "ok": 6,
    "quota_hit": false,
    "errors": 0
   }

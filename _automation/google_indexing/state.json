@@ -25,7 +25,8 @@
   "https://rentflow.tabserve.com.tr/blog/how-to-handle-rental-property-repairs/": "2026-07-30",
   "https://rentflow.tabserve.com.tr/blog/rental-property-budget-planning-guide/": "2026-07-30",
   "https://rentflow.tabserve.com.tr/blog/security-deposit-dispute-resolution-guide/": "2026-07-30",
-  "https://rentflow.tabserve.com.tr/blog/page/3/": "2026-07-30"
+  "https://rentflow.tabserve.com.tr/blog/page/3/": "2026-07-30",
+  "https://rentflow.tabserve.com.tr/blog/rental-property-cash-reserve-fund-guide/": "2026-07-31"
  },
  "history": [
   {
@@ -102,6 +103,13 @@
    "date": "2026-07-30",
    "mode": "yeni",
    "ok": 6,
+   "quota_hit": false,
+   "errors": 0
+  },
+  {
+   "date": "2026-07-31",
+   "mode": "yeni",
+   "ok": 1,
    "quota_hit": false,
    "errors": 0
   }
